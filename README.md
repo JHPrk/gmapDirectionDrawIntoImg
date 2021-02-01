@@ -8,6 +8,8 @@ drawImageWithJsonPath(self, stepList, center, zoom = 17, maptype = "roadmap", si
 - draw and save image into local drive
 
 # Error occurs when no path is available
+# Result
+![ResultImage 1](path.png)
 
 # Todo : 
 1. draw map with heading. -> Similar to navigation mode
