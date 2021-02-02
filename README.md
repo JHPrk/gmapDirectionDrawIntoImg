@@ -11,12 +11,12 @@ drawImageWithJsonPath(self, stepList, center, zoom = 17, maptype = "roadmap", si
 
 # Error occurs when no path is available
 # Result
-A. Dongguk university to Seoul Station Using encoded polylines
-![ResultImage enc](path_enc.png)
-B. Dongguk university to Seoul Station Using longitude latitude steps
-![ResultImage_lonlat](path_lonlat.png)
-C. It is not accurate in case of zooming too much.. TODO
-![ResultImage 1](path.png)
+A. Dongguk university to Seoul Station Using encoded polylines<br>
+![ResultImage enc](path_enc.png)<br>
+B. Dongguk university to Seoul Station Using longitude latitude steps<br>
+![ResultImage_lonlat](path_lonlat.png)<br>
+C. It is not accurate in case of zooming too much.. TODO<br>
+![ResultImage 1](path.png)<br>
 
 # Todo : 
 1. draw map with heading. -> Similar to navigation mode
