@@ -1,5 +1,8 @@
 # Prerequisite
-Google Static Map API & Direction API are needed
+Google Static Map API & Direction API are needed<br>
+python packages : <br>
+- urllib <br>
+- PIL <br>
 
 # Features
 findDirectionOfNowToDestination(self, origin, dest, mode = "transit", departure_time = "now")<br>
