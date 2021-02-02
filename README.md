@@ -3,11 +3,16 @@ Google Static Map API & Direction API are needed
 
 # Features
 findDirectionOfNowToDestination(self, origin, dest, mode = "transit", departure_time = "now")<br>
-  - using Direction API to find direction of origin to destination Format : (Longitude,Latitude) <br> 
+- using Direction API to find direction of origin to destination Format : (Longitude,Latitude) <br>
+- return : json response from direction api<br>
+
 jsonPathParsing(self, jsonPath)<br>
-  - using parser to parsing json response into needed format
+- using parser to parsing json response into needed format<br>
+- return : path string format <br>
+
 drawImageWithJsonPath(self, stepList, center, zoom = 17, maptype = "roadmap", size = "600x300", color = "0x0000ff", weight = 3)<br>
-  - draw and save image into local drive
+- draw and save image into local drive<br>
+- return : image binary data <br>
 
 # Error occurs when no path is available
 # Result
